@@ -18,3 +18,21 @@
 - **Custom Sentiment Detection**
 
 ## 📁 Folder Structure
+├── screens/
+│ ├── chatbot_screen.dart
+│ ├── sign_in_screen.dart
+│ ├── sign_up_screen.dart
+│ ├── profile_setup_screen.dart
+│ ├── safety_screen.dart
+│ └── incident_report.dart
+├── services/
+│ ├── chatbot_service.dart
+│ ├── auth_service.dart
+│ └── firestore_service.dart
+└── main.dart
+
+## 🚫 Excluded Files
+For security, this repo does not include:
+- `firebaseConfig.js` / `google-services.json`
+- `.env` or sensitive credentials
+- Real user data or test images
